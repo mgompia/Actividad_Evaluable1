@@ -25,6 +25,7 @@ function gestionCompras() {
     let salir = false;
     let contador = 0; 
     let operacion = 0; 
+    let gastoTotal = 0; 
 
     do {
 
@@ -62,6 +63,7 @@ function gestionCompras() {
         }
 
         contador++; 
+        gastoTotal = gastoTotal + precioFinal
 
     } while (!salir);
 
@@ -76,7 +78,7 @@ function gestionCompras() {
     console.log(salir);
     console.log(contador);
 
-    console.log("Se han realizado " + contador + " compras, se han realizado " + operacion + " operaciones")
+    console.log("Se han realizado " + contador + " compras, se han realizado " + operacion + " operaciones, el gasto total es de " + gastoTotal); 
 
 }
 
