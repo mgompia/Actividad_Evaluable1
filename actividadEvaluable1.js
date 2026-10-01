@@ -67,16 +67,16 @@ function gestionCompras() {
 
     } while (!salir);
 
-    console.log(precio);
-    console.log(cantidad);
-    console.log(importe);
-    console.log(descuento);
-    console.log(precioTotal);
-    console.log(iva);
-    console.log(precioFinal);
-    console.log(decision);
-    console.log(salir);
-    console.log(contador);
+    // console.log(precio);
+    // console.log(cantidad);
+    // console.log(importe);
+    // console.log(descuento);
+    // console.log(precioTotal);
+    // console.log(iva);
+    // console.log(precioFinal);
+    // console.log(decision);
+    // console.log(salir);
+    // console.log(contador);
 
     console.log("Se han realizado " + contador + " compras, se han realizado " + operacion + " operaciones, el gasto total es de " + gastoTotal); 
 
